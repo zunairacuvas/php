@@ -31,7 +31,7 @@
             case '*':                           //for multiplication
                 $result = $num1 * $num2;
                 break;
-            case '/':                           // for addition
+            case '/':                           // for division
                 if ($num2 != 0) {
                     $result = $num1 / $num2;
                 } else {
@@ -45,7 +45,7 @@
         }
 
 
-             echo "<h2>Result: $result</h2>";
+             echo "<h2>Result: $result</h2>";    //calculate
 
       }
         ?>
